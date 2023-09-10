@@ -1,0 +1,48 @@
+/* Header and Footer Styles + Responsiveness */
+header {
+    display: flex;
+    align-items: center;
+    padding: 2% 3% 2% 5%;
+}
+
+.header-logo {
+    width: 10%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 3% 0 20%;
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.03px;
+    color: rgba(16, 16, 16, 1);
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: rgba(89, 89, 89, 1);
+}
+
+.active {
+    color: rgba(89, 89, 89, 1);
+}
+
+.active:hover {
+    color: rgba(16, 16, 16, 1);
+}
+
+.search-icon {
+    width: 4%;
+    border-right: 2px solid rgba(89, 89, 89, 1);
+    padding: 0% 1% 0% 0;
+}
+.search-icon img {
+    vertical-align: middle;
+}

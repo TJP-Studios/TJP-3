@@ -21,41 +21,12 @@ a {
     text-decoration: none;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-    padding: 2% 3% 2% 5%;
+.home-btn:hover {
+    color: #274BCD;
+    background-color: #FFF;
+    box-shadow: -1px 0px 24px 6px rgba(39, 75, 205, 0.25);
 }
 
-.header-logo {
-    width: 10%;
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 70%;
-    margin: 0 3% 0 20%;
-}
-
-nav a {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px; /* 120% */
-    letter-spacing: 0.03px;
-    color: rgba(16, 16, 16, 1);
-}
-
-.search-icon {
-    width: 4%;
-    border-right: 2px solid rgba(89, 89, 89, 1);
-    padding: 0% 1% 0% 0;
-}
-.search-icon img {
-    vertical-align: middle;
-}
 
 .hero {
     position: relative;
@@ -63,7 +34,7 @@ nav a {
     /* background-position: center center; */
     background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
+    height: 946px;
 }
 
 .hero-img {
@@ -73,7 +44,7 @@ nav a {
 }
 
 .hero-txt {
-    padding: 15% 3% 5% 5%;
+    padding: 23% 3% 5% 5%;
 }
 
 .hero-txt h1 {
@@ -90,7 +61,7 @@ nav a {
     line-height: 28px; /* 116.667% */
     color: #FFF;
     width: 35%;
-    margin: 3% 0;
+    margin: 2% 0;
 }
 
 .hero-txt a { 
@@ -101,6 +72,8 @@ nav a {
     border-radius: 8px;
     background: #274BCD;
     padding: 1.5% 4%;
+    margin-top: 1%;
+    display: inline-block;
 }
 
 .stats-container {
@@ -267,9 +240,13 @@ h3 {
     background: #FFF;
     box-shadow: -1px 0px 24px 6px rgba(171, 171, 172, 0.25);
     padding: 1.5% 2% 3% 2%;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-between; */
+    /* gap: 3%; */
 }
 
-.insight-info h5 {
+.insight-info-txt h5 {
     color: #000;
     font-family: Open Sans;
     font-size: 18px;
@@ -278,7 +255,7 @@ h3 {
     margin: 3% 0;
 }
 
-.insight-info p {
+.insight-info-txt p {
     color: #000;
     font-family: Open Sans;
     font-size: 18px;
@@ -287,7 +264,7 @@ h3 {
     margin-bottom: 10%;
 }
 
-.insight-info a {
+.insight-info-txt a {
     font-size: 20px;
     font-weight: 500;
     line-height: 32px; /* 160% */
