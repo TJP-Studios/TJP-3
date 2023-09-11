@@ -200,6 +200,10 @@ h3 {
     align-items: center;
 }
 
+/* .exp-img:hover {
+    filter: grayscale(50%);
+} */
+
 .exp p {
     font-size: 24px;
     font-weight: 400;
