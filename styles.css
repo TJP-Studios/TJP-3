@@ -22,6 +22,12 @@ a {
     text-decoration: none;
 }
 
+.home-btn {
+    border-radius: 8px;
+    border: 1px solid var(--blue-600, #274BCD);
+    background: #FFF;
+}
+
 .home-btn:hover {
     color: #274BCD;
     background-color: #FFF;
