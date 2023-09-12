@@ -260,13 +260,7 @@ article a {
 }
 
 article a:hover {
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 32px; /* 160% */
-    border-radius: 0px 8px 8px 0px;
+    color: #274BCD;
     border: 1px solid var(--blue-600, #274BCD);
     background: var(--blue-600, #FFF);
-    /* padding: 16px 48px; */
-    padding: 1% 3%;
 }
