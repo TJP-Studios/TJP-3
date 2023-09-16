@@ -96,6 +96,7 @@ a {
     border-radius: 8px;
     background: #385CDD;
     padding: 3% 8%;
+    outline: 0;
 }
 
 .recognition-profile-container {
