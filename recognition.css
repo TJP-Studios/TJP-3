@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    max-width: 1920px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.recognition-hero-container {
+    position: relative;
+}
+
+.recognition-hero-txt {
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 12% 0 0% 0;
+    background: rgba(16, 16, 16, 0.50);
+}
+
+.recognition-hero-txt h1 {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px; /* 116.667% */
+    letter-spacing: 1.44px;
+    text-align: center;
+}
+
+.recognition-hero-txt p {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    text-align: center;
+}
+
+.recognition-hero-award {
+    width: 10%;
+    display: flex;
+    margin: 5% auto;
+}
+
+.recognition-hero-sub {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 15%; */
+    /* position: absolute; */
+    /* left: 0; */
+    /* bottom: -80%; */
+    padding: 5%;
+    margin-top: -10%;
+    position: relative;
+}
+
+.recognition-hero-sub-container {
+    width: 20%;
+}
+
+.recognition-hero-sub-container-img {
+    border-radius: 50px;
+    background: var(--primarycolor-0, #FFF);
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.15);
+    padding: 18%;
+    margin-bottom: 20%;
+}
+
+.recognition-hero-sub-container-select {
+    text-align: center;
+}
+
+.recognition-hero-sub-container-select select {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px; /* 137.5% */
+    border-radius: 8px;
+    background: #385CDD;
+    padding: 3% 8%;
+}
+
+.recognition-profile-container {
+    padding: 3% 3% 2% 5%;
+}
+
+.recognition-profile {
+    display: flex;
+    gap: 2%;
+    margin-bottom: 5%;
+}
+
+.recognition-profile-img {
+    width: 22%;
+}
+
+.recognition-profile-txt {
+width: 70%;
+}
+
+.recognition-profile-txt h5 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px; /* 116.667% */
+}
+
+.recognition-profile-txt p {
+    color: #000;
+    text-align: justify;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+    margin: 1% 0;
+}
