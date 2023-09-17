@@ -66,7 +66,7 @@ h3 {
 
 p {
     color: var(--neutral-color-800, #101010);
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px; /* 144.444% */
@@ -83,26 +83,26 @@ p {
 }
 
 .expertise-text-link p {
-    width: 80%;
+    width: 75%;
 }
 
 .expertise-link {
     display: flex;
     align-items: center;
     gap: 10%;
-    width: 11%;
+    width: 17%;
 }
 
 .expertise-link a {
     color: var(--blue-600, #274BCD);
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 28px; /* 140% */
 }
 
 .expertise-link-img {
-    width: 15%;
+    width: 10%;
 }
 
 .expertise-sector-line {
@@ -129,7 +129,7 @@ p {
 
 .expertise-sector-txt p {
     color: var(--neutral-color-800, #101010);
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px; /* 144.444% */
@@ -163,7 +163,6 @@ p {
     display: flex;
     /* justify-content: space-between; */
     gap: 15%;
-    margin: 0% 0 0% 0;
 }
 
 .expertise-cart {
@@ -198,7 +197,7 @@ p {
 
 .expertise-cart-txt h4 {
     color: var(--neutral-color-800, #101010);
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 22px;
     font-weight: 600;
     line-height: normal;
@@ -206,7 +205,7 @@ p {
 
 .expertise-cart-txt h5 {
     color: var(--neutral-color-800, #101010);
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 26px; /* 144.444% */
@@ -215,7 +214,7 @@ p {
 
 .expertise-cart-txt p {
     color: var(--neutral-color-800, #101010);
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px; /* 144.444% */
@@ -252,7 +251,6 @@ p {
 
 .profile-request p {
     color: var(--neutral-color-800, #101010);
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px; /* 120% */
@@ -263,12 +261,81 @@ p {
 
 .profile-request a {
     color: var(--blue-600, #274BCD);
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
     line-height: 28px; /* 140% */
     text-decoration-line: underline;
     text-align: center;
     display: block;
+}
+
+
+/* Responsive Screens */
+/* Tablet */
+@media screen and (min-width: 900px) and (max-width: 1150px) {
+    .expertise-hero-txt h1 {
+        font-size: 40px;
+    }
+    
+    .expertise-hero-txt p {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+
+    .expertise-link {
+        width: 18%;
+    }
+
+    .expertise-link a {
+        font-size: 16px;
+    }
+
+    .expertise-sector-txt h4 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .expertise-sector-txt p {
+        font-size: 14px;
+    }
+    
+    .expertise-sector-link a {
+        font-size: 16px;
+    }
+
+    .expertise-cart-txt {
+        bottom: -35%;
+    }
+
+    .expertise-cart-txt h4 {
+        font-size: 20px;
+    }
+    
+    .expertise-cart-txt h5 {
+        font-size: 18px;
+    }
+    
+    .expertise-cart-txt p {
+        font-size: 18px;
+    }
+    
+    .expertise-cart-link a {
+        font-size: 18px;
+    }
+
+    .profile-request p {
+        font-size: 16px;
+    }
+    
+    .profile-request a {
+        font-size: 18px;
+    }
 }

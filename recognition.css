@@ -28,7 +28,7 @@ a {
 
 .recognition-hero-txt {
     position: absolute;
-    top: 0%;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
@@ -89,7 +89,7 @@ a {
 
 .recognition-hero-sub-container-select select {
     color: #FFF;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 22px; /* 137.5% */
@@ -127,10 +127,46 @@ width: 70%;
 .recognition-profile-txt p {
     color: #000;
     text-align: justify;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px; /* 137.5% */
     margin: 1% 0;
+}
+
+
+/* Responsive Screens */
+/* Tablet */
+@media screen and (min-width: 900px) and (max-width: 1150px) {
+
+    .recognition-hero-txt {
+        padding: 10% 0 0% 0;
+    }
+
+    .recognition-hero-txt h1 {
+        font-size: 48px;
+    }
+    
+    .recognition-hero-txt p {
+        font-size: 40px;
+    }
+
+    .recognition-hero-award {
+        margin: 3% auto;
+    }
+
+    .recognition-hero-sub-container-select select {
+        font-size: 14px;
+    }
+
+    .recognition-profile-txt h5 {
+        font-size: 20px;
+    }
+    
+    .recognition-profile-txt p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
 }

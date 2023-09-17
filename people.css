@@ -42,7 +42,7 @@ h3 {
 
 p {
     color: #000;
-font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
 font-size: 18px;
 font-weight: 600;
 line-height: 26px; /* 144.444% */
@@ -86,7 +86,7 @@ line-height: 26px; /* 144.444% */
 
 .people-txt h4 {
     color: var(--neutral-color-800, #101010);
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: 600;
     line-height: 34px; /* 141.667% */
@@ -94,7 +94,7 @@ line-height: 26px; /* 144.444% */
 
 .people-txt h5 {
     color: #000;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 26px; /* 144.444% */
@@ -103,7 +103,7 @@ line-height: 26px; /* 144.444% */
 
 .people-txt p {
     color: var(--neutral-color-800, #101010);
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 28px; /* 140% */
@@ -143,4 +143,29 @@ line-height: 26px; /* 144.444% */
     align-items: flex-start;
     gap: 3%;
     margin: 0 auto 2% auto;
+}
+
+
+/* Responsive Screens */
+/* Tablet */
+@media screen and (min-width: 900px) and (max-width: 1150px) {
+    .people-info {
+        width: 24%;
+    }
+
+    .people-txt h4 {
+        font-size: 18px;
+    }
+    
+    .people-txt h5 {
+        font-size: 14px;
+    }
+    
+    .people-txt p {
+        font-size: 16px;
+    }
+    
+    .people-txt a {
+        font-size: 16px;
+    }
 }

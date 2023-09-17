@@ -24,20 +24,12 @@ a {
 
 .hero {
     position: relative;
-    background: url(./img/hero-img-1.png);
-    /* background-position: center center; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 946px;
-}
-
-.hero-img {
-    /* position: absolute;
-    z-index: -1; */
-    /* background: url(./img/hero-img.png), lightgray 50% / cover no-repeat, #0A0B16; */
 }
 
 .hero-txt {
+    position: absolute;
+    top: 0%;
+    bottom: 0;
     padding: 23% 3% 5% 5%;
 }
 
@@ -102,16 +94,16 @@ a {
 .middle-stats-left {
     border-left: 2px solid rgba(89, 89, 89, 1);
     border-right: 2px solid rgba(89, 89, 89, 1);
-    width: 18%;
+    width: 23%;
 }
 
 .middle-stats {
     border-right: 2px solid rgba(89, 89, 89, 1);
-    width: 15%;
+    width: 20%;
 }
 
 .last-stats {
-    width: 17%;
+    width: 20%;
 }
 
 .stats h5 {
@@ -146,7 +138,7 @@ a {
 }
 
 .home-about-us-txt h4 {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 40px; /* 125% */
     letter-spacing: 0.08px;
@@ -264,20 +256,23 @@ h3 {
 
 .home-insight-info-txt h5 {
     color: #000;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    line-height: 26px; /* 144.444% */
     margin: 3% 0;
 }
 
 .home-insight-info-txt p {
     color: #000;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 26px; /* 144.444% */
     margin-bottom: 10%;
+}
+
+.link {
+    margin-top: 18%;
 }
 
 .home-insight-info-txt a {
@@ -308,11 +303,10 @@ h3 {
 
 .home-people p {
     color: var(--neutral-color-500, #484848);
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
-    line-height: 26px; /* 144.444% */
-    margin-bottom: 1%;
+    margin: 2% 0;
 }
 
 .home-people-container {
@@ -327,26 +321,21 @@ h3 {
 
 .home-people-info h4 {
     color: var(--neutral-color-800, #101010);
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    line-height: 34px; /* 141.667% */
-    text-align: center;
 }
 
 .home-people-info p {
     color: var(--neutral-color-800, #101010);
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 600;
-    line-height: 28px; /* 140% */
-    text-align: center;
 }
 
 .home-people a {
     font-size: 20px;
     font-weight: 500;
-    line-height: 32px; /* 160% */
     color: #274BCD;
     border: 1px solid #274BCD;
     border-radius: 8px;
@@ -370,7 +359,7 @@ h3 {
 
 .home-careers p {
     color: var(--neutral-color-500, #484848);
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px; /* 144.444% */
@@ -408,7 +397,7 @@ h3 {
 
 .home-careers-txt h4 {
     color: rgba(0, 0, 0, 0.50);
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px; /* 144.444% */
@@ -417,7 +406,7 @@ h3 {
 
 .home-careers-txt p {
     color: #000;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px; /* 144.444% */
@@ -445,4 +434,130 @@ h3 {
 .home-careers-txt a:hover {
     background-color: #274BCD;
     color: #FFF;
+}
+
+
+/* Responsive Screens */
+/* Tablet */
+@media screen and (min-width: 900px) and (max-width: 1150px) {
+    .hero-txt h1 {
+        font-size: 36px;
+    }
+
+    .hero-txt p {
+        font-size: 22px;
+        width: 45%;
+    }
+
+    .stats h5 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 34px; /* 141.667% */
+        color: var(--neutral-color-800, #101010);
+        margin-bottom: 6%;
+    }
+    
+    .stats p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+    }
+
+    .middle-stats-left {
+        width: 25%;
+    }
+    
+    .middle-stats {
+        width: 20%;
+    }
+    
+    .last-stats {
+        width: 20%;
+    }
+    
+    .home-about-us-txt h4 {
+        font-size: 28px;
+    }
+    
+    .home-about-us-txt p {
+        font-size: 16px;
+    }
+    
+    .home-about-last-p {
+        margin-bottom: 6% !important;
+    }
+    
+    .home-about-us-txt a {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 32px; /* 160% */
+        color: #FFF;
+        border-radius: 8px;
+        background: #274BCD;
+        padding: 2.5% 5%;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .home-exp p {
+        font-size: 20px;
+    }
+    
+    .home-expertise-container a {
+        font-size: 16px;
+    }
+
+    .home-insight-info {
+        width: 32%;
+    }
+  
+    .home-insight-info-txt h5 {
+        font-size: 16px;
+    }
+    
+    .home-insight-info-txt p {
+        font-size: 14px;
+    }
+    
+    .home-insight-info-txt a {
+        font-size: 18px;
+    }
+
+    .home-people p {
+        font-size: 16px;
+    }
+    
+    .home-people-info h4 {
+        font-size: 17px;
+    }
+    
+    .home-people-info p {
+        font-size: 14px;
+    }
+    
+    .home-people a {
+        font-size: 14px;
+    }
+
+    .home-careers p {
+        font-size: 16px;
+    }
+    
+    .home-careers-txt h2 {
+        font-size: 21px;
+    }
+    
+    .home-careers-txt h4 {
+        font-size: 17px;
+    }
+    
+    .home-careers-txt p {
+        font-size: 16px;
+    }
+    
+    .home-careers-txt a {
+        font-size: 18px;
+    }
 }
