@@ -28,6 +28,36 @@ main {
     margin-bottom: 1%;
 }
 
+.people-hero {
+    position: relative;
+}
+
+.people-hero-txt {
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    /* width: 80%; */
+    /* left: 20%; */
+    padding: 30% 3% 5% 5%;
+    background: rgba(16, 16, 16, 0.64);
+}
+
+.people-hero-txt h1 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+    text-align: center;
+}
+
+.people-hero-txt p {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px; /* 116.667% */
+}
+
 .people-meet-container {
     padding: 3% 3% 2% 5%;
 }
@@ -149,6 +179,14 @@ line-height: 26px; /* 144.444% */
 /* Responsive Screens */
 /* Tablet */
 @media screen and (min-width: 900px) and (max-width: 1150px) {
+    .people-hero-txt h1 {
+        font-size: 40px;
+    }
+    
+    .people-hero-txt p {
+        font-size: 20px;
+    }
+
     .people-info {
         width: 24%;
     }
