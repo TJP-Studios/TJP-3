@@ -99,6 +99,45 @@ a {
     outline: 0;
 }
 
+option {
+    display: none;
+}
+
+.award-cart-lft, .award-cart-md, .award-cart-rt {
+    display: none;
+    background: #385CDD;
+    padding: 3% 8%;
+    width: 95%;
+    margin: 2% auto;
+    position: relative;
+    z-index: 5;
+}
+
+.award-cart-lft p, .award-cart-md p, .award-cart-rt p {
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px; /* 137.5% */
+    /* border-radius: 8px; */
+}
+
+.award-cart-lft ul, .award-cart-md ul, .award-cart-rt ul {
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 0 3% 15%;
+}
+
+.award-cart-lft.hide, .award-cart-md.hide, .award-cart-rt.hide {
+    display: block;
+}
+
+p, ul {
+    text-align: left;
+}
+
 .recognition-profile-container {
     padding: 3% 3% 2% 5%;
 }
