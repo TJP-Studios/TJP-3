@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    max-width: 1920px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.alumni-hero {
+    position: relative;
+}
+
+.alumni-hero-txt {
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    /* width: 80%; */
+    /* left: 20%; */
+    padding: 30% 5% 5% 5%;
+    background: rgba(16, 16, 16, 0.64);
+}
+
+.alumni-hero-txt h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px; /* 116.667% */
+    text-align: center;
+}
+
+.alumni-hero-txt p {
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px; /* 116.667% */
+    margin: 0 18%;
+    /* width: 70%; */
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px; /* 125% */
+    letter-spacing: 0.08px;
+    color: var(--neutral-color-500, #101010);
+    /* margin-bottom: 1%; */
+}
+
+p {
+    color: var(--neutral-color-800, #101010);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+}
+
+.alumni-container {
+    padding: 3% 5% 2% 5%;
+}
+
+.alumni-people {
+    padding: 3% 5% 2% 5%;
+    background: rgba(197, 209, 253, 0.32);
+}
+
+.alumni-cart-container {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 15%;
+}
+
+.alumni-cart {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    padding-bottom: 2%;
+    width: 40%;
+    margin-bottom: 10%;
+}
+
+.alumni-cart-img img {
+    width: 60%;
+}
+
+.alumni-cart-txt {
+    position: absolute;
+    bottom: -10%;
+    right: -10%;
+    width: 85%;
+    border-radius: 8px;
+    padding: 6% 5%;
+    border-top: 1px solid var(--blue-600, #274BCD);
+    border-right: 4px solid var(--blue-600, #274BCD);
+    border-bottom: 4px solid var(--blue-600, #274BCD);
+    border-left: 1px solid var(--blue-600, #274BCD);
+    background: rgba(255, 255, 255, 0.90);
+}
+
+.alumni-cart-txt h4 {
+    color: var(--neutral-color-800, #101010);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.alumni-cart-txt h5 {
+    color: var(--neutral-color-800, #101010);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px; /* 144.444% */
+    margin: 4% 0 10% 0;
+}
+
+.alumni-cart-txt p {
+    color: var(--neutral-color-800, #101010);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+}

@@ -30,7 +30,7 @@ a {
     position: absolute;
     top: 0%;
     bottom: 0;
-    padding: 23% 3% 5% 5%;
+    padding: 23% 5% 5% 5%;
 }
 
 .hero-txt h1 {
@@ -124,7 +124,7 @@ a {
 }
 
 .home-about-us-container {
-    padding: 3% 3% 2% 5%;
+    padding: 3% 5% 2% 5%;
     display: flex;
     gap: 2%;
 }
@@ -176,7 +176,7 @@ a {
 }
 
 .home-expertise-container {
-    padding: 3% 3% 2% 5%;
+    padding: 3% 5% 2% 5%;
 }
 
 h3 {
@@ -234,7 +234,7 @@ h3 {
 }
 
 .home-insight-container {
-    padding: 3% 3% 2% 5%;
+    padding: 3% 5% 2% 5%;
 }
 
 .home-insight-content {
@@ -293,7 +293,7 @@ h3 {
 }
 
 .home-people {
-    padding: 3% 3% 2% 5%;
+    padding: 3% 5% 2% 5%;
     /* display: none; */
 }
 
@@ -354,7 +354,7 @@ h3 {
 }
 
 .home-careers {
-    padding: 3% 3% 2% 5%;
+    padding: 3% 5% 2% 5%;
 }
 
 .home-careers p {
@@ -371,21 +371,15 @@ h3 {
     box-shadow: -1px 0px 24px 6px rgba(0, 0, 0, 0.25);
 }
 
-.home-careers-top {
+.home-careers-info {
     display: flex;
-    justify-content: flex-start;
-    gap: 3%;
-    padding: 2% 5%;
-}
-.home-careers-bottom {
-    display: flex;
-    justify-content: flex-end;
-    gap: 3%;
+    justify-content: space-between;
+    gap: 15%;
     padding: 2% 5%;
 }
 
 .home-careers-img, .home-careers-txt {
-    width: 30%;
+    width: 50%;
 }
 
 .home-careers-txt h2 {
@@ -401,7 +395,7 @@ h3 {
     font-size: 18px;
     font-weight: 400;
     line-height: 26px; /* 144.444% */
-    margin: 2% 0;
+    margin: 4% 0;
 }
 
 .home-careers-txt p {
@@ -417,7 +411,7 @@ h3 {
     display: flex;
     align-items: center;
     gap: 45%;
-    margin: 6% 0;
+    margin: 8% 0 10% 0;
 }
 
 .home-careers-txt a {
