@@ -32,7 +32,7 @@ a {
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 12% 0 0% 0;
+    padding: 20% 0 0% 0;
     background: rgba(16, 16, 16, 0.50);
 }
 
@@ -43,6 +43,7 @@ a {
     line-height: 84px; /* 116.667% */
     letter-spacing: 1.44px;
     text-align: center;
+    margin-bottom: 1%;
 }
 
 .recognition-hero-txt p {
@@ -51,12 +52,6 @@ a {
     font-weight: 400;
     line-height: 56px; /* 116.667% */
     text-align: center;
-}
-
-.recognition-hero-award {
-    width: 10%;
-    display: flex;
-    margin: 5% auto;
 }
 
 .recognition-hero-sub {
@@ -79,12 +74,13 @@ a {
     border-radius: 50px;
     background: var(--primarycolor-0, #FFF);
     box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.15);
-    padding: 18%;
+    padding: 15%;
     margin-bottom: 20%;
 }
 
 .recognition-hero-sub-container-select {
     text-align: center;
+    position: relative;
 }
 
 .recognition-hero-sub-container-select select {
@@ -106,11 +102,19 @@ option {
 .award-cart-lft, .award-cart-md, .award-cart-rt {
     display: none;
     background: #385CDD;
-    padding: 3% 8%;
-    width: 95%;
-    margin: 2% auto;
-    position: relative;
+    /* width: 20%; */
+    /* margin: 2% auto; */
+    position: absolute;
+    left: 5%;
     z-index: 5;
+}
+
+.award-cart-lft {
+    padding: 8% 15% 3% 9%;
+}
+
+.award-cart-md, .award-cart-rt {
+    padding: 8% 0 3% 9%;
 }
 
 .award-cart-lft p, .award-cart-md p, .award-cart-rt p {
@@ -119,7 +123,7 @@ option {
     font-size: 16px;
     font-weight: 600;
     line-height: 22px; /* 137.5% */
-    /* border-radius: 8px; */
+   margin-bottom: 3%;
 }
 
 .award-cart-lft ul, .award-cart-md ul, .award-cart-rt ul {
@@ -127,7 +131,7 @@ option {
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
     font-weight: 600;
-    margin: 0 0 3% 15%;
+    margin: 0 0 10% 15%;
 }
 
 .award-cart-lft.hide, .award-cart-md.hide, .award-cart-rt.hide {
@@ -139,11 +143,12 @@ p, ul {
 }
 
 .recognition-profile-container {
-    padding: 3% 3% 2% 5%;
+    padding: 3% 5%;
 }
 
 .recognition-profile {
     display: flex;
+    align-items: center;
     gap: 2%;
     margin-bottom: 5%;
 }
@@ -158,9 +163,9 @@ width: 70%;
 
 .recognition-profile-txt h5 {
     color: #000;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 28px; /* 116.667% */
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px; /* 116.667% */
 }
 
 .recognition-profile-txt p {
@@ -171,7 +176,24 @@ width: 70%;
     font-style: normal;
     font-weight: 400;
     line-height: 22px; /* 137.5% */
-    margin: 1% 0;
+    margin: 1% 0 3% 0;
+}
+
+.recognition-profile-link a {
+    color: #FFFEFE;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+    border-radius: 4px;
+    background: var(--blue-600, #274BCD);
+    padding: 1% 3%;
+    transition: ease 0.3s;
+}
+
+.recognition-profile-link a:hover {
+    color: #274BCD;
+    background: var(--blue-600, #FFFEFE);
+    border: 1px solid #274BCD;
 }
 
 

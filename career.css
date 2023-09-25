@@ -39,11 +39,11 @@ a {
 
 .career-hero-txt h1 {
     color: #FFF;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 56px; /* 116.667% */
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px; /* 116.667% */
     text-align: center;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 }
 
 .career-hero-txt p {
@@ -51,15 +51,15 @@ a {
     font-size: 24px;
     font-weight: 400;
     line-height: 28px; /* 116.667% */
-    /* margin: 0 18%; */
-    /* width: 70%; */
+    text-align: justify;
+    margin: 0 7%;
 }
 
 .career-hero-link {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .career-hero-link a {
@@ -70,4 +70,44 @@ a {
     border-radius: 8px;
     background: #274BCD;
     padding: 1% 4%;
+}
+
+.career-affiliation-membership {
+    padding: 3% 5%;
+}
+
+.career-affiliation h3 {
+    color: var(--neutral-color-800, #101010);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px; /* 160% */
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.career-affiliation-container {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    margin-bottom: 1%;
+}
+
+.career-affiliation-img {
+    width: 15%;
+}
+
+.career-affiliation-container p {
+    width: 85%;
+}
+
+.career-affiliation-img-bow {
+    /* width: 46%; */
+}
+
+.career-affiliation-container p {
+    color: var(--neutral-color-800, #101010);
+    text-align: justify;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px; /* 116.667% */
 }
