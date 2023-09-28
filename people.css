@@ -60,7 +60,7 @@ main {
 }
 
 .people-meet-container {
-    padding: 5% 5% 2% 5%;
+    padding: 3% 5%;
 }
 
 h3 {
@@ -80,10 +80,20 @@ p {
 }
 
 .people-partners {
-    padding-bottom: 1%;
+    padding: 3% 5%;
 }
 
 .people-partners h5 {
+    margin-bottom: 2%;
+}
+
+.people-text-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.people-partners h5, .people-text-link h5 {
     color: #000;
     font-size: 24px;
     font-weight: 600;
@@ -91,11 +101,29 @@ p {
     text-align: center;
 }
 
+.people-link {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    width: 17%;
+}
+
+.people-link a {
+    color: var(--blue-600, #274BCD);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px; /* 140% */
+}
+
+.people-link-img {
+    width: 10%;
+}
+
 .people-partners-container {
     display: flex;
     justify-content: space-between;
-    /* margin-bottom: 1%; */
-    padding: 1% 5% 2% 5%;
+    margin-bottom: 2%;
 }
 
 .people-info {
@@ -159,21 +187,21 @@ p {
 }
 
 .swipe-page {
-    width: 6%;
+    width: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8%;
+    margin: 0 auto 5% auto;
+}
+
+.swipe-page-bt {
+    width: 15%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 5%;
-    margin: 0 auto 2% auto;
-}
-
-.swipe-page-bt {
-    width: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 3%;
-    margin: 0 auto 2% auto;
+    margin: 0 auto 5% auto;
 }
 
 

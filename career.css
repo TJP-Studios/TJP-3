@@ -70,6 +70,13 @@ a {
     border-radius: 8px;
     background: #274BCD;
     padding: 1% 4%;
+    transition: ease 0.3s;
+}
+
+.career-hero-link a:hover {
+    color: #274BCD;
+    background-color: #FFF;
+    border: 1px solid #274BCD;
 }
 
 .career-affiliation-membership {
