@@ -79,19 +79,21 @@ a {
     border: 1px solid #274BCD;
 }
 
+
 .insight-sub-hero-links-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* gap: 5%; */
-    margin: 2% 10%;
+    /* justify-content: space-between; */
+    gap: 4%;
+    padding: 3% 5%;
 }
 
 .insight-sub-hero-links {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 5%;
+    border-radius: 4px;
+    border: 0.4px solid var(--primarycolor-700, #B8B8B8);
+    padding: 1%;
 }
 
 .insight-sub-hero-links-img {
@@ -100,25 +102,105 @@ a {
 
 .insight-sub-hero-links a {
     color: var(--neutral-color-800, #101010);
-    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    line-height: 28px; /* 140% */
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.03px;
 }
 
+.insight-article {
+    padding: 3% 5% 0 5%;
+}
 
+.insight-article-top {
+    display: flex;
+    align-items: center;
+    gap: 1%;
+}
 
+.insight-article-top h3 {
+    color: var(--neutral-color-800, #101010);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px; /* 120% */
+}
+
+.insight-article-top img {
+    width: 3%;
+}
 
 .insight-container {
     padding: 3% 5%;
 }
 
-.insight-content {
+.insight-article-year-container {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    gap: 5%;
+    margin: 2% 0;
+    border-top: 0.5px solid var(--primarycolor-500, #DDD);
+    border-bottom: 0.5px solid var(--primarycolor-500, #DDD);
+    padding: 2% 0;
 }
 
-.insight-info {
+.insight-article-year {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    border: 0.5px solid var(--primarycolor-500, #DDD);
+    padding: 0.5% 0;
+}
+
+.current-year {
+    background: var(--blue-100, #C5D1FD);
+    box-shadow: -1px 0px 24px 6px rgba(171, 171, 172, 0.12);
+}
+
+.insight-article-year p {
+    color: var(--neutral-color-300, #6B6B6B);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.03px;
+}
+
+.current-year p {
+    color: var(--light-blue-600, #2774CD) !important;
+    font-weight: 500 !important;
+}
+
+.insight-article-year img {
+    width: 20%;
+}
+
+.insight-article-months {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.insight-article-months p {
+    color: var(--neutral-color-200, #7B7A7A);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+}
+
+.current-month {
+    color: var(--blue-600, #274BCD) !important;
+    font-weight: 600 !important;
+}
+
+.insight-article-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.insight-article-info {
     width: 32%;
     border-radius: 10px;
     background: #FFF;
@@ -130,7 +212,7 @@ a {
     /* gap: 3%; */
 }
 
-.insight-info-txt h5 {
+.insight-article-info-txt h5 {
     color: var(--primarycolor-900, #878787);
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -138,7 +220,7 @@ a {
     line-height: 22px; /* 137.5% */
 }
 
-.insight-info-txt p {
+.insight-article-info-txt p {
     color: var(--neutral-color-800, #101010);
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
@@ -147,23 +229,51 @@ a {
     margin: 8% 0;
 }
 
-.special-h5 {
-    margin-top: 14%;
+.insight-article-link {
+    margin-top: 15%;
 }
 
-.insight-info-txt a {
+.insight-article-link a {
     font-size: 20px;
     font-weight: 500;
     line-height: 32px; /* 160% */
+    color: #fff;
+    padding: 4% 15%;
     border-radius: 8px;
-    color: #274BCD;
-    /* padding: 4% 7%; */
+    background: #274BCD;
     transition: 0.2s ease;
 }
 
-.insight-info-txt a:hover {
-    border-top: 1px solid #274BCD;
-    border-bottom: 1px solid #274BCD;
-    padding-top: 1%;
-    padding-bottom: 1%;
+.insight-article-link a:hover {
+    color: #274BCD;
+    background-color: #fff;
+    border: 1px solid #274BCD;
+}
+
+.circular-page-link-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    margin-top: 3%;
+}
+
+.top {
+    gap: 1%;
+}
+
+.circular-page-link-left {
+    background-color: #FFF;
+    border: 1px solid var(--grey-color-700, #929292);
+    /* width: 3%; */
+    border-radius: 50%;
+    scale: 0.4;
+}
+
+.circular-page-link-right {
+    fill: #FFF;
+    border: 1px solid var(--blue-400, #5072E9);
+    /* width: 3%; */
+    border-radius: 50%;
+    scale: 0.4;
 }

@@ -80,7 +80,7 @@ a {
 }
 
 .career-affiliation-membership {
-    padding: 3% 5%;
+    padding: 3% 0%;
 }
 
 .career-affiliation h3 {
@@ -97,6 +97,8 @@ a {
     align-items: center;
     gap: 5%;
     margin-bottom: 1%;
+    border-bottom: 1px solid #10101021;
+    padding: 2% 5%;
 }
 
 .career-affiliation-img {
@@ -117,4 +119,29 @@ a {
     font-size: 24px;
     font-weight: 400;
     line-height: 28px; /* 116.667% */
+}
+
+.career-association-membership {
+    padding: 3% 5%;
+}
+
+.career-association-membership h3 {
+    color: var(--neutral-color-800, #101010);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px; /* 160% */
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.career-association-membership-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 2%; */
+    padding: 2% 0;
+}
+
+.career-association-img {
+    width: 15%;
 }
