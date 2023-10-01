@@ -24,66 +24,135 @@ a {
 }
 
 .insight-hero {
-    position: relative;
+    padding: 3% 5%;
+    display: flex;
+    align-items: center;
+    gap: 10%;
 }
 
 .insight-hero-txt {
-    position: absolute;
-    top: 0%;
-    bottom: 0;
-    /* width: 80%; */
-    /* left: 20%; */
-    padding: 15% 3% 5% 5%;
-    background: rgba(16, 16, 16, 0.70);
+    width: 55%;
 }
 
 .insight-hero-txt h1 {
-    color: #FFF;
-    font-size: 72px;
-    font-weight: 700;
-    line-height: 84px; /* 116.667% */
-    text-align: center;
-    margin-bottom: 2%;
+    color: var(--neutral-color-800, #101010);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px; /* 120% */;
+    margin-bottom: 3%;
 }
 
 .insight-hero-txt p {
-    color: #FFF;
-    font-size: 24px;
+    color: var(--neutral-color-800, #101010);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 28px; /* 116.667% */
+    line-height: 28px; /* 140% */
     text-align: justify;
-    margin: 0 7%;
 }
 
-.insight-hero-link {
+.insight-paragraph {
+    width: 90%;
+    margin: 1% 0 10% 0;
+}
+
+.search-container {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 3%;
+    justify-content: space-between;
+    /* gap 2%; */
+    border-radius: 6px;
+    border: 1px solid var(--primarycolor-600, #CDCDCD);
+    background: #FFF;
+    padding: 1% 1% 1% 3%;
+    width: 70%;
 }
 
-.insight-hero-link a {
+.search-container .search-img-link {
+    width: 5%;
+}
+
+.search-container input {
+    color: var(--primarycolor-900, #878787);
+    font-feature-settings: 'cv04' on, 'cv03' on;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 63%;
+    padding: 3% 0;
+    border: none;
+    outline: 0;
+}
+
+.search-container .search-link {
+    border-radius: 8px;
+    background: #274BCD;
     color: #FFF;
     font-size: 20px;
     font-weight: 500;
-    line-height: 32px; /* 160% */
-    border-radius: 8px;
-    background: #274BCD;
-    padding: 1% 4%;
-    transition: ease 0.3s;
+    padding: 2% 7%;
 }
 
-.insight-hero-link a:hover {
-    color: #274BCD;
-    background-color: #FFF;
-    border: 1px solid #274BCD;
+.insight-hero-img {
+    width: 30%;
+    position: relative;
 }
 
+.top-circle, .bottom-circle {
+    width: 244px;
+    height: 300px;
+    border-radius: 300px;
+    background: rgba(245, 247, 255, 0.50);
+    position: absolute;
+    z-index: -1;
+}
+
+.top-circle {
+    top: 3%;
+    left: -10%;
+}
+
+.bottom-circle {
+    bottom: -10%;
+    right: -10%;
+}
+
+.ellipse-top-1 {
+    position: absolute;
+    top: -8%;
+    right: -25%;
+    z-index: -1;
+    width: 80%;
+}
+
+.ellipse-top-2 {
+    position: absolute;
+    top: -10%;
+    right: -30%;
+    z-index: -1;
+    width: 80%;
+}
+
+.ellipse-bottom-1 {
+    position: absolute;
+    bottom: -8%;
+    left: -25%;
+    z-index: -1;
+    width: 80%;
+}
+
+.ellipse-bottom-2 {
+    position: absolute;
+    bottom: -10%;
+    left: -30%;
+    z-index: -1;
+    width: 80%;
+}
 
 .insight-sub-hero-links-container {
     display: flex;
     /* justify-content: space-between; */
-    gap: 4%;
+    gap: 3%;
     padding: 3% 5%;
 }
 
@@ -97,7 +166,7 @@ a {
 }
 
 .insight-sub-hero-links-img {
-    width: 20%;
+    width: 25%;
 }
 
 .insight-sub-hero-links a {
@@ -136,21 +205,21 @@ a {
 .insight-article-year-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 5%;
+    /* justify-content: space-between; */
+    gap: 10%;
     margin: 2% 0;
     border-top: 0.5px solid var(--primarycolor-500, #DDD);
     border-bottom: 0.5px solid var(--primarycolor-500, #DDD);
-    padding: 2% 0;
+    padding: 2% 15% 2% 0;
 }
 
 .insight-article-year {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     border-radius: 16px;
     border: 0.5px solid var(--primarycolor-500, #DDD);
-    padding: 0.5% 0;
+    padding: 0.5% 1% 0.5% 1%;
 }
 
 .current-year {
@@ -172,7 +241,7 @@ a {
 }
 
 .insight-article-year img {
-    width: 20%;
+    width: 40%;
 }
 
 .insight-article-months {
@@ -226,7 +295,7 @@ a {
     font-size: 18px;
     font-weight: 400;
     line-height: 26px; /* 144.444% */
-    margin: 8% 0;
+    margin: 5% 0;
 }
 
 .insight-article-link {
