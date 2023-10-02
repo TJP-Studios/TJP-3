@@ -121,7 +121,7 @@ p {
 .people-partners-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
 }
 
 .people-info {
@@ -139,6 +139,8 @@ p {
     background-color: #FFF;
     padding: 3% 2%;
     margin-top: -2%;
+    background: var(--grey-color-0, #F9F6F6);
+    box-shadow: 4px 4px 9px -2px #274BCD;
 }
 
 .people-txt h4 {
@@ -147,6 +149,7 @@ p {
     font-size: 20px;
     font-weight: 700;
     line-height: 28px; /* 141.667% */
+    margin: 1% 0;
 }
 
 .people-txt h5 {
@@ -190,7 +193,7 @@ p {
     justify-content: center;
     align-items: flex-start;
     gap: 8%;
-    margin: 0 auto 5% auto;
+    margin: -3% auto 0% auto;
 }
 
 .swipe-page-bt {
@@ -199,7 +202,7 @@ p {
     justify-content: center;
     align-items: flex-start;
     gap: 5%;
-    margin: 0 auto 5% auto;
+    margin: -3% auto 3% auto;
 }
 
 
