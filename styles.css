@@ -213,10 +213,50 @@ h3 {
     line-height: 34px; /* 141.667% */
     color: var(--primarycolor-100, #FDFDFD);
     /* margin-top: 50%; */
-
     position: absolute;
-    /* z-index: -1; */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 45% 0;
+    text-align: center;
+    cursor: pointer;
 }
+
+.hover{
+    transition: ease 0.3s;
+}
+
+.test:hover {
+    display: none;
+}
+
+.test:hover + .hover {
+    display: block;
+}
+
+.test:hover + .home-exp-img img {
+    opacity: 0.5;
+}
+
+.hover {
+    position: absolute;
+    z-index: 5;
+    left: 20%;
+    display: none;
+    padding: 10%;
+    border: 1px solid #fff;
+}
+
+.hover p, a {
+    position: static;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px; /* 141.667% */
+    color: var(--primarycolor-100, #FDFDFD);
+}
+
 
 .home-exp-link {
     display: flex;
