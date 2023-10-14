@@ -41,7 +41,7 @@ a {
 
 .alumni-hero-txt h1 {
     color: #FFF;
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 700;
     line-height: 48px; /* 116.667% */
     text-align: center;
@@ -79,7 +79,7 @@ p {
 
 .alumni-people {
     padding: 3% 5% 2% 5%;
-    background: rgba(197, 209, 253, 0.32);
+    /* background: rgba(197, 209, 253, 0.32); */
 }
 
 .alumni-cart-container {
@@ -106,7 +106,7 @@ p {
     position: absolute;
     bottom: -10%;
     right: -10%;
-    width: 85%;
+    width: 75%;
     border-radius: 8px;
     padding: 6% 5%;
     border-top: 1px solid var(--blue-600, #274BCD);
@@ -127,8 +127,8 @@ p {
 .alumni-cart-txt h5 {
     color: var(--neutral-color-800, #101010);
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
     line-height: 26px; /* 144.444% */
     margin: 3% 0;
 }
@@ -139,5 +139,25 @@ p {
     font-size: 16px;
     font-weight: 700;
     line-height: 22px; /* 144.444% */
-    color: var(--blue-600, #274BCD);
+}
+
+.alumni-cart-link {
+    text-align: center;
+}
+
+.alumni-cart-link a {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+    border-radius: 8px;
+    border: 1px solid var(--blue-600, #274BCD);
+    background: var(--blue-600, #274BCD);
+    padding: 1% 3%;
+    transition: ease 0.3s;
+}
+
+.alumni-cart-link a:hover {
+    color: #274BCD;
+    background: var(--blue-600, #FFF);
 }

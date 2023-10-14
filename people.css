@@ -24,7 +24,7 @@ a {
 }
 
 main {
-    background: var(--blue-100, #C5D1FD);
+    background: var(--blue-0, #F5F7FF);
     margin-bottom: 1%;
 }
 
@@ -54,7 +54,8 @@ main {
     font-size: 24px;
     font-weight: 400;
     line-height: 28px; /* 116.667% */
-    margin: 0 5%;
+    margin: 0 10%;
+    text-align: center;
 }
 
 .people-meet-container {
@@ -73,8 +74,9 @@ p {
     color: #000;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    font-weight: 600;
-    line-height: 26px; /* 144.444% */
+    font-weight: 400;
+    line-height: 26px;
+    text-align: justify;
 }
 
 .people-partners {
@@ -93,9 +95,9 @@ p {
 
 .people-partners h5, .people-text-link h5 {
     color: #000;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 600;
-    line-height: 28px; /* 116.667% */
+    line-height: 40px;
     text-align: center;
 }
 
@@ -131,15 +133,15 @@ p {
 
 .people-img {
     /* width: 93%; */
-    background: var(--blue-100, #C5D1FD);
+    background: var(--blue-0, #F5F7FF);
 }
 
 .people-txt {
     /* width: 93%; */
     background-color: #FFF;
-    padding: 3% 2%;
+    padding: 8%;
     margin-top: -2%;
-    background: var(--grey-color-0, #F9F6F6);
+    background: var(--grey-color-0, #FFF);
     box-shadow: 4px 4px 9px -2px #274BCD;
 }
 
@@ -164,11 +166,12 @@ p {
 .people-txt p {
     color: #000;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     padding: 5% 0;
     background-color: #FFF;
+    text-align: unset;
 }
 
 .people-txt a {
